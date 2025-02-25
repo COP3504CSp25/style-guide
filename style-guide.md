@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # C++ Style Guide
 
 While styling your code is not the most exciting part of software development, writing in a clean, consistent, and easy-to-read style sets you (and us, the instructors) up for success. Benefits of well-formatted code include the following:
