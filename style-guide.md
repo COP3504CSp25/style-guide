@@ -224,7 +224,7 @@ For preprocessor directives, separate them from your main code with a blank line
 
 class PublicPark {
     // Rest of the code...
-}
+};
 ```
 
 ## **Naming and Declarations**
@@ -299,11 +299,11 @@ Coming up with good names for functions, classes, enums, and files is difficult.
     }
     ```
 
-    - `enum` members should be snake_case.
+    - `enum` members should be PascalCase.
 
     ```cpp
     enum class HexColors : int {
-        gator_blue = 0x0021A5, gator_orange = 0xFA4616, gator_green = 0x01723E
+        GatorBlue = 0x0021A5, GatorOrange = 0xFA4616, GatorGreen = 0x01723E
     }
     ```
 
