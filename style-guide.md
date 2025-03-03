@@ -364,8 +364,8 @@ Prefer member initialization lists to setting variables in the constructor's bod
 
 ```cpp
     Pond(std::vector<Animal*> animals, std::string material) :
-    animals_(std::move(animals)),
-    material_(std::move(material)) {}
+        animals_(std::move(animals)),
+        material_(std::move(material)) {}
 ```
 
 ### **Structs**
